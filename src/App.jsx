@@ -10,6 +10,33 @@ export default function App() {
         <h1>Dictionary Project</h1>
         <Dictionary />
       </div>
+      <footer className="text-center mt-5">
+        This app was coded by{" "}
+        <a
+          href="https://github.com/mlang1988"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Mona Lang
+        </a>
+        , is open-sourced on{" "}
+        <a
+          href="https://github.com/mlang1988/dictionary-project"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>{" "}
+        and hosted on{" "}
+        <a
+          href="https://teal-biscotti-736287.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Netlify
+        </a>
+        .
+      </footer>
     </div>
   );
 }
