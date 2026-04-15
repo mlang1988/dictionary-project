@@ -32,7 +32,6 @@
   color: white;
   border: none;
   border-radius: 4px;
-  transition: all 200ms ease-in-out;
 }
 
 .search-button:hover {
