@@ -1,0 +1,20 @@
+.Meaning section {
+  background-color: rgb(252, 182, 174);
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 5px;
+}
+
+.Meaning h3 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.definition {
+  margin-bottom: 10px;
+}
+
+.example {
+  font-style: italic;
+  margin-bottom: 10px;
+}

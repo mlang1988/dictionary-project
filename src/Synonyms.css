@@ -1,3 +1,12 @@
+.Synonyms span {
+  font-weight: 700;
+}
+
 ul {
   list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin-left: 20px;
 }

@@ -2,12 +2,17 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Dictionary from "./Dictionary";
+import logo from "./assets/dictionary-logo.png";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Dictionary Project</h1>
+        <h1>Dictionary</h1>
+        <div className="logo-container">
+          <img src={logo} alt="dictionary-logo" className="dictionary-logo" />
+        </div>
+
         <Dictionary />
       </div>
       <footer className="text-center mt-5">

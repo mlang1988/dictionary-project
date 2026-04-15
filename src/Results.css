@@ -1,8 +1,23 @@
 .Results {
-  text-align: center;
   margin-top: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.Results .keyword-section {
+  background-color: salmon;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 5px;
+}
+
+.Results h2 {
+  font-size: 64px;
+  font-weight: bold;
 }
 
 .phonetics {
   font-size: 22px;
+  opacity: 0.8;
 }

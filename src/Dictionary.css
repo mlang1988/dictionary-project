@@ -1,4 +1,49 @@
+.form {
+  background-color: white;
+  border-radius: 4px;
+  padding: 15px;
+  margin-top: 5px;
+}
+
+.Dictionary h4 {
+  margin-top: 5px;
+  margin-left: 10px;
+  font-weight: 300;
+}
+
 .Dictionary form {
   margin-top: 20px;
   text-align: center;
+}
+
+.search-input {
+  width: 80%;
+  border-radius: 4px;
+  border: 1px solid grey;
+  padding: 10px;
+  color: rgba(48, 46, 46, 0.808);
+}
+
+.search-button {
+  width: 18%;
+  margin-left: 5px;
+  padding: 10px 15px;
+  background-color: #fa8072;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: all 200ms ease-in-out;
+}
+
+.search-button:hover {
+  background-color: white;
+  color: #fa8072;
+  border: 1px solid #fa8072;
+  border-radius: 4px;
+}
+
+.suggestions {
+  opacity: 0.8;
+  margin-top: 5px;
+  margin-left: 10px;
 }
