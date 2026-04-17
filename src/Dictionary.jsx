@@ -78,7 +78,7 @@ export default function Dictionary(props) {
               src={photos.src.landscape}
               alt={photos.alt}
               key={index}
-              className="col-4"
+              className="col-4 img-fluid dictionary-img"
             />
           ))}
         </div>

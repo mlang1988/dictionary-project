@@ -52,7 +52,6 @@
   margin: 0 auto;
 }
 
-.img-container img {
+.img-container .dictionary-img {
   margin-bottom: 20px;
-  border-radius: 4px;
 }
