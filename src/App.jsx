@@ -13,7 +13,7 @@ export default function App() {
           <img src={logo} alt="dictionary-logo" className="dictionary-logo" />
         </div>
 
-        <Dictionary />
+        <Dictionary defaultKeyword="summer" />
       </div>
       <footer className="text-center mt-5">
         This app was coded by{" "}

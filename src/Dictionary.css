@@ -46,3 +46,13 @@
   margin-top: 5px;
   margin-left: 10px;
 }
+
+.img-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.img-container img {
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
